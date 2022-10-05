@@ -31,7 +31,7 @@ function draw() {
       let a = angle + offset;
       let h = map(sin(a), -1, 1, 0, 100) + 1 ;
       translate(x - width / 2, 0, z - width / 2);
-      ambientMaterial(h/4, h/4, h/4 + 100);
+      ambientMaterial(h/4, 110 + h/4, 110 - h/4);
       box(w - 2, h + 50 - 0.1 * d, w-2);
       //rect(x - (width / 2) + (w/2), 0, w-2, h);
       pop();
